@@ -131,7 +131,7 @@ class App extends React.Component {
         <Dropdown handleToneSelection={this.handleToneSelection} currentEmotion={this.state.currentEmotion}/>
         <div className='col-md-9 col-sm-9 col-lg-9'></div>
         <div className='col-md-1 col-sm-1 col-lg-1'>
-          <Legend color={this.state.colors[this.state.currentEmotion]}/>
+          <Legend color={this.state.colors[this.state.currentEmotion]} currentEmotion={this.state.currentEmotion}/>
         </div>
       </div>
     );
